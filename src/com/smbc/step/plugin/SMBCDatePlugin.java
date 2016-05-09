@@ -22,7 +22,8 @@ public class SMBCDatePlugin extends Plugin
 	    throws Exception
 	  {
 	  }
-//hi
+//hi naveen
+	  //23423424224234
 	  public String getId()
 	  {
 	    return "DatePlugin";

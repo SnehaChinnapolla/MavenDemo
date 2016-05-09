@@ -8,6 +8,7 @@ function(declare, connect,  Desktop, ValueFormatter) {
 		// plugin in effect only for icm desktop
 		return;
 	}
+	//hi it update to git hub????
 	
 	 Desktop.valueFormatter = new ValueFormatter();
 	connect.connect(ecm.model.desktop, "onLogin", function() {
