@@ -8,9 +8,8 @@ function(declare, connect,  Desktop, ValueFormatter) {
 		// plugin in effect only for icm desktop
 		return;
 	}
-	//hi it update to git hub????
-	// is it connected to git hub ??????//????
-	console.log("yes ... connecting....for Naveen kk repository ????");
+	
+	console.log("is it fetching ?????");
 	 Desktop.valueFormatter = new ValueFormatter();
 	connect.connect(ecm.model.desktop, "onLogin", function() {
 		console.log("updating with icm.util.Util only for icm desktop");
