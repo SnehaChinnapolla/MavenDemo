@@ -10,7 +10,7 @@ function(declare, connect,  Desktop, ValueFormatter) {
 	}
 	//hi it update to git hub????
 	// is it connected to git hub ??????//????
-	console.log("yes ... connecting....");
+	console.log("yes ... connecting....for Naveen kk repository ????");
 	 Desktop.valueFormatter = new ValueFormatter();
 	connect.connect(ecm.model.desktop, "onLogin", function() {
 		console.log("updating with icm.util.Util only for icm desktop");
