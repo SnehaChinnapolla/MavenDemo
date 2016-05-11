@@ -124,10 +124,10 @@
   </properties>
   <profiles>
   <profile>
-  	<activation></activation>
-  	<build></build>
-  	<repositories></repositories>
+  	<activation />
+  	<build />
+  	<repositories />
   </profile>
   </profiles>
-  <version>0.1-SNAPSHOT</version>
+  <version>2</version>
 </project>
