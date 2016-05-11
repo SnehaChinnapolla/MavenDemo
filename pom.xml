@@ -41,9 +41,7 @@
                      <checkModificationExclude>**/*.xml</checkModificationExclude>
                      <checkModificationExclude>**/target/classes/META-INF/maven/DatePlugin2/DatePlugin2/*.properties*</checkModificationExclude>
                 </checkModificationExcludes>
-      	 <connectionUrl>https://github.com/naveenkumarkummara/MavenDemo</connectionUrl>
-      	 <tagBase>scm:git:git://github.com/naveenkumarkummara/MavenDemo.git</tagBase>
-         </configuration>
+      	         </configuration>
       </plugin>
     </plugins>
   </build>
