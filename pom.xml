@@ -82,7 +82,7 @@
   	<connection>scm:git:git://github.com/naveenkumarkummara/MavenDemo.git</connection>
   	<developerConnection>scm:git:[push=]ssh:git@github.com:naveenkumarkummara/MavenDemo.git</developerConnection>
   	<tag>DatePlugin2-0.01</tag>
-  </scm>
+   </scm>
   <issueManagement>
   	<system>github</system>
   	<url>https://github.com/naveenkumarkummara/MavenDemo/issues</url>
