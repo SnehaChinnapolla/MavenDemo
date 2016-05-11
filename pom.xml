@@ -86,7 +86,7 @@
   	<connection>scm:git:git://github.com/naveenkumarkummara/MavenDemo.git</connection>
   	<developerConnection>scm:git:https://github.com/naveenkumarkummara/MavenDemo</developerConnection>
 
-  	<tag>6</tag>
+  	<tag>HEAD</tag>
    </scm>
   <issueManagement>
   	<system>github</system>
@@ -132,5 +132,5 @@
   	<repositories />
   </profile>
   </profiles>
-  <version>6</version>
+  <version>7-SNAPSHOT</version>
 </project>
