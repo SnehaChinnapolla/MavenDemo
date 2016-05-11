@@ -45,6 +45,12 @@
       	<artifactId>maven-changes-plugin</artifactId>
       	<version>2.12</version>
       	 <configuration>
+      	 <checkModificationExcludes>
+                    <checkModificationExclude>**/*pom.xml*</checkModificationExclude>
+                    <checkModificationExclude>**/*.log</checkModificationExclude>
+                    <checkModificationExclude>**/*.jar</checkModificationExclude>
+                    <checkModificationExclude>**/target/**</checkModificationExclude>
+                </checkModificationExcludes>
       	<includeOpenIssues>true</includeOpenIssues>
       	<onlyMilestoneIssues>false</onlyMilestoneIssues>
       	</configuration>
