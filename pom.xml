@@ -32,13 +32,7 @@
       	<artifactId>maven-release-plugin</artifactId>
       	<version>2.5.3</version>
       	 <configuration>
-      <!--
-        During release:perform, enable the "release" profile
-       -->      <url>https://github.com/naveenkumarkummara/MavenDemo</url>
-  	<connection>scm:git:git://github.com/naveenkumarkummara/MavenDemo.git</connection>
-  	
-      <releaseProfiles>release</releaseProfiles>
-    </configuration>
+         </configuration>
       </plugin>
     </plugins>
   </build>
