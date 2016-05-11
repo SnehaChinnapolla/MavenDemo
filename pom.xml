@@ -32,6 +32,7 @@
       	<artifactId>maven-release-plugin</artifactId>
       	<version>2.5.3</version>
       	 <configuration>
+      	 <connection>scm:git:git://github.com/naveenkumarkummara/MavenDemo.git</connection>
       	 <username>naveenkumarkummara</username>
       	<password>Kummara@230</password>
       	 <tagBase>+refs/heads/*:refs/remotes/github/*</tagBase>
@@ -84,7 +85,7 @@
   	<url>https://github.com/naveenkumarkummara/MavenDemo</url>
   	<connection>scm:git:git://github.com/naveenkumarkummara/MavenDemo.git</connection>
   	<developerConnection>scm:git:https://github.com/naveenkumarkummara/MavenDemo.git</developerConnection>
-  	<tag>DatePlugin2-0.01</tag>
+  	<tag>DatePlugin2-0.02</tag>
   	
    </scm>
   <issueManagement>
@@ -131,5 +132,5 @@
   	<repositories />
   </profile>
   </profiles>
-  <version>0.02-SNAPSHOT</version>
+  <version>0.02</version>
 </project>
