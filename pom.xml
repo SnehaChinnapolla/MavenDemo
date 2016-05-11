@@ -131,5 +131,5 @@
   	<repositories />
   </profile>
   </profiles>
-  <version>0.01</version>
+  <version>0.02-SNAPSHOT</version>
 </project>
