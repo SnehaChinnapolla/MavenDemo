@@ -49,6 +49,16 @@
       	         <goal>site</goal>
       	         </goals>
       </plugin>
+           <plugin>
+      	<groupId>org.sonatype.plugins</groupId>
+      	<artifactId>nexus-staging-maven-plugin</artifactId>
+      	<version>1.6.3</version>
+      	<configuration>
+        <serverId>ossrh</serverId>
+        <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+        <autoReleaseAfterClose>true</autoReleaseAfterClose>
+      </configuration>
+           </plugin>
     </plugins>
   </build>
   <reporting>
@@ -122,6 +132,13 @@
     <version>5.1.0</version>
     <systemPath>${lib}\navigatorAPI.jar</systemPath>
 </dependency>
+<dependency>
+    <artifactId>nexus-staging-maven-plugin</artifactId>
+    <groupId>nexus-staging-maven-plugin</groupId>
+    <scope>system</scope>
+    <version>1.6.3</version>
+    <systemPath>${lib}\nexus-staging-maven-plugin-1.6.3.jar</systemPath>
+</dependency>
 </dependencies>
   <properties>
   	<lib>D:\MavenDemo\DatePlugin2\lib</lib>
@@ -134,4 +151,10 @@
   </profile>
   </profiles>
   <version>0.01-SNAPSHOT</version>
+  <distributionManagement>
+  <snapshotRepository>
+    <id>ossrh</id>
+    <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+  </snapshotRepository>
+</distributionManagement>
 </project>
