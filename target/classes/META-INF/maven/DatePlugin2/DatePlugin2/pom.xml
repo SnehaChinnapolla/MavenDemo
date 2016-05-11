@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>DatePlugin2</groupId>
   <artifactId>DatePlugin2</artifactId>
-  <build>
+   <build>
     <sourceDirectory>src</sourceDirectory>
     <resources>
       <resource>
@@ -41,10 +41,13 @@
                     <checkModificationExclude>**/*.jar</checkModificationExclude>
                     <checkModificationExclude>**/target/**</checkModificationExclude>
                      <checkModificationExclude>**/*.properties</checkModificationExclude>
-                     <checkModificationExclude>**/*.xml</checkModificationExclude>
-                     
+                     <checkModificationExclude>**/*.xml</checkModificationExclude>                     
                 </checkModificationExcludes>
       	         </configuration>
+      	         <goals>
+      	         <goal>deploy</goal>
+      	         <goal>site</goal>
+      	         </goals>
       </plugin>
     </plugins>
   </build>
@@ -84,8 +87,7 @@
   	<url>https://github.com/naveenkumarkummara/MavenDemo</url>
   	<connection>scm:git:git://github.com/naveenkumarkummara/MavenDemo.git</connection>
   	<developerConnection>scm:git:https://github.com/naveenkumarkummara/MavenDemo</developerConnection>
-
-  	<tag>8</tag>
+  	<tag>12</tag>
    </scm>
   <issueManagement>
   	<system>github</system>
@@ -131,5 +133,5 @@
   	<repositories />
   </profile>
   </profiles>
-  <version>8</version>
+  <version>12</version>
 </project>

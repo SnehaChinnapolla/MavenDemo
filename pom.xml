@@ -2,14 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>DatePlugin2</groupId>
   <artifactId>DatePlugin2</artifactId>
-  <mailingLists>
-  <mailingList>
-      <name>User List</name>
-      <subscribe>santoshraja.dhanyamraju@mitsind.com</subscribe>
-       <post>santoshraja.dhanyamraju@mitsind.com</post>
-        </mailingList>
-  </mailingLists>
-  <build>
+   <build>
     <sourceDirectory>src</sourceDirectory>
     <resources>
       <resource>
