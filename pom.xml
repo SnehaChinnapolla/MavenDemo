@@ -35,7 +35,7 @@
       <!--
         During release:perform, enable the "release" profile
        -->
-       <connectionUrl>scm:git@github.com:naveenkumarkummara/MavenDemo.git</connectionUrl>
+       <connectionUrl>scm:git:git://github.com/naveenkumarkummara/MavenDemo.git</connectionUrl>
       <releaseProfiles>release</releaseProfiles>
     </configuration>
       </plugin>
