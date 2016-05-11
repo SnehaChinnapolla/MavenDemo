@@ -34,8 +34,7 @@
       	 <configuration>
       <!--
         During release:perform, enable the "release" profile
-       -->
-       <connectionUrl>scm://github.com/naveenkumarkummara/MavenDemo</connectionUrl>
+       -->       
       <releaseProfiles>release</releaseProfiles>
     </configuration>
       </plugin>
