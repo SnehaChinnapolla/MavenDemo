@@ -52,7 +52,7 @@
                     <checkModificationExclude>**/target/**</checkModificationExclude>
                      <checkModificationExclude>**/*.properties</checkModificationExclude>
                      <checkModificationExclude>**/*.xml</checkModificationExclude>
-                     <checkModificationExclude>**/target/*.properties</checkModificationExclude>
+                     <checkModificationExclude>**/target/classes/META-INF/maven/DatePlugin2/DatePlugin2/*.properties</checkModificationExclude>
                 </checkModificationExcludes>
       	<includeOpenIssues>true</includeOpenIssues>
       	<onlyMilestoneIssues>false</onlyMilestoneIssues>
