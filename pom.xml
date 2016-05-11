@@ -50,6 +50,8 @@
                     <checkModificationExclude>**/*.log</checkModificationExclude>
                     <checkModificationExclude>**/*.jar</checkModificationExclude>
                     <checkModificationExclude>**/target/**</checkModificationExclude>
+                     <checkModificationExclude>**/*.properties</checkModificationExclude>
+                     <checkModificationExclude>**/*.xml</checkModificationExclude>
                 </checkModificationExcludes>
       	<includeOpenIssues>true</includeOpenIssues>
       	<onlyMilestoneIssues>false</onlyMilestoneIssues>
