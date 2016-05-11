@@ -9,7 +9,7 @@ function(declare, connect,  Desktop, ValueFormatter) {
 		return;
 	}
 	
-	console.log("is it fetching ?????");
+	console.log("is it fetching ????3333?");
 	 Desktop.valueFormatter = new ValueFormatter();
 	connect.connect(ecm.model.desktop, "onLogin", function() {
 		console.log("updating with icm.util.Util only for icm desktop");

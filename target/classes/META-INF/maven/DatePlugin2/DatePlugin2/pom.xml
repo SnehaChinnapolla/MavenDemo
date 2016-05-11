@@ -27,14 +27,100 @@
       	<artifactId>maven-resources-plugin</artifactId>
       	<version>2.5</version>
       </plugin>
-      
+      <plugin>
+      	<groupId>org.apache.maven.plugins</groupId>
+      	<artifactId>maven-release-plugin</artifactId>
+      	<version>2.5.3</version>
+      	 <configuration>
+      <!--
+        During release:perform, enable the "release" profile
+       -->
+      <releaseProfiles>release</releaseProfiles>
+    </configuration>
+      </plugin>
     </plugins>
   </build>
-  <scm>
+  <reporting>
+  <plugins>
+   <plugin>
+      	<groupId>org.apache.maven.plugins</groupId>
+      	<artifactId>maven-changes-plugin</artifactId>
+      	<version>2.12</version>
+      	 <configuration>
+      	<includeOpenIssues>true</includeOpenIssues>
+      	<onlyMilestoneIssues>false</onlyMilestoneIssues>
+      	</configuration>
+         <reportSets>
+          <reportSet>
+            <reports>
+              <report>github-report</report>
+            </reports>
+          </reportSet>
+        </reportSets>
+      </plugin>
+       <plugin>
+      	<groupId>org.apache.maven.plugins</groupId>
+      	<artifactId>maven-changelog-plugin</artifactId>
+      	 <configuration>
+          <type>date</type>
+          <dates>
+            <date implementation="java.lang.String">2016-05-06</date>
+            <date implementation="java.lang.String">2016-05-10</date>
+          </dates>
+          <dateFormat>yyyy-MM-dd</dateFormat>
+        </configuration>
+      </plugin>
+  </plugins>
+  </reporting>
+   <scm>
   	<url>https://github.com/naveenkumarkummara/MavenDemo</url>
   	<connection>scm:git:git://github.com/naveenkumarkummara/MavenDemo.git</connection>
   	<developerConnection>scm:git:[push=]ssh:git@github.com:naveenkumarkummara/MavenDemo.git</developerConnection>
   	<tag>DatePlugin2-2</tag>
   </scm>
-  <version>2</version>
+  <issueManagement>
+  	<system>github</system>
+  	<url>https://github.com/naveenkumarkummara/MavenDemo/issues</url>
+  </issueManagement>
+  <dependencies>
+      <dependency>
+    <artifactId>j2ee</artifactId>
+    <groupId>j2ee</groupId>
+    <scope>system</scope>
+    <version>1.4</version>
+    <systemPath>${lib}\j2ee.jar</systemPath>
+</dependency>
+<dependency>
+    <artifactId>Jace</artifactId>
+    <groupId>Jace</groupId>
+    <scope>system</scope>
+    <version>5.1.0</version>
+    <systemPath>${lib}\Jace.jar</systemPath>
+</dependency>
+<dependency>
+    <artifactId>JSON4J</artifactId>
+    <groupId>JSON4J</groupId>
+    <scope>system</scope>
+    <version>1.0.0.1</version>
+    <systemPath>${lib}\JSON4J.jar</systemPath>
+</dependency>
+<dependency>
+    <artifactId>navigatorAPI</artifactId>
+    <groupId>navigatorAPI</groupId>
+    <scope>system</scope>
+    <version>5.1.0</version>
+    <systemPath>${lib}\navigatorAPI.jar</systemPath>
+</dependency>
+</dependencies>
+  <properties>
+  	<lib>D:\MavenDemo\DatePlugin2\lib</lib>
+  </properties>
+  <profiles>
+  <profile>
+  	<activation></activation>
+  	<build></build>
+  	<repositories></repositories>
+  </profile>
+  </profiles>
+  <version>0.1-SNAPSHOT</version>
 </project>
