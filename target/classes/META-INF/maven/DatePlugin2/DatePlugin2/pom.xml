@@ -32,6 +32,15 @@
       	<artifactId>maven-release-plugin</artifactId>
       	<version>2.5.3</version>
       	 <configuration>
+      	 <checkModificationExcludes>
+                    <checkModificationExclude>**/*pom.xml*</checkModificationExclude>
+                    <checkModificationExclude>**/*.log</checkModificationExclude>
+                    <checkModificationExclude>**/*.jar</checkModificationExclude>
+                    <checkModificationExclude>**/target/**</checkModificationExclude>
+                     <checkModificationExclude>**/*.properties</checkModificationExclude>
+                     <checkModificationExclude>**/*.xml</checkModificationExclude>
+                     <checkModificationExclude>**/target/classes/META-INF/maven/DatePlugin2/DatePlugin2/*.properties*</checkModificationExclude>
+                </checkModificationExcludes>
       	 <connectionUrl>https://github.com/naveenkumarkummara/MavenDemo</connectionUrl>
       	 <tagBase>scm:git:git://github.com/naveenkumarkummara/MavenDemo.git</tagBase>
          </configuration>
@@ -45,15 +54,6 @@
       	<artifactId>maven-changes-plugin</artifactId>
       	<version>2.12</version>
       	 <configuration>
-      	 <checkModificationExcludes>
-                    <checkModificationExclude>**/*pom.xml*</checkModificationExclude>
-                    <checkModificationExclude>**/*.log</checkModificationExclude>
-                    <checkModificationExclude>**/*.jar</checkModificationExclude>
-                    <checkModificationExclude>**/target/**</checkModificationExclude>
-                     <checkModificationExclude>**/*.properties</checkModificationExclude>
-                     <checkModificationExclude>**/*.xml</checkModificationExclude>
-                     <checkModificationExclude>**/target/classes/META-INF/maven/DatePlugin2/DatePlugin2/pom.properties</checkModificationExclude>
-                </checkModificationExcludes>
       	<includeOpenIssues>true</includeOpenIssues>
       	<onlyMilestoneIssues>false</onlyMilestoneIssues>
       	</configuration>
@@ -124,10 +124,10 @@
   </properties>
   <profiles>
   <profile>
-  	<activation></activation>
-  	<build></build>
-  	<repositories></repositories>
+  	<activation />
+  	<build />
+  	<repositories />
   </profile>
   </profiles>
-  <version>0.1-SNAPSHOT</version>
+  <version>2</version>
 </project>
