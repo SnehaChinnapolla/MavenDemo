@@ -32,18 +32,19 @@
       	<artifactId>maven-release-plugin</artifactId>
       	<version>2.5.3</version>
       	 <configuration>
-      	 <checkModificationExcludes>
+      	 <connection>https://github.com/naveenkumarkummara/MavenDemo</connection>
+      	 <username>naveenkumarkummara</username>
+      	<password>Kummara@230</password>
+      	       	 <checkModificationExcludes>
                     <checkModificationExclude>**/*pom.xml*</checkModificationExclude>
                     <checkModificationExclude>**/*.log</checkModificationExclude>
                     <checkModificationExclude>**/*.jar</checkModificationExclude>
                     <checkModificationExclude>**/target/**</checkModificationExclude>
                      <checkModificationExclude>**/*.properties</checkModificationExclude>
                      <checkModificationExclude>**/*.xml</checkModificationExclude>
-                     <checkModificationExclude>**/target/classes/META-INF/maven/DatePlugin2/DatePlugin2/*.properties*</checkModificationExclude>
+                     
                 </checkModificationExcludes>
-      	 <connectionUrl>https://github.com/naveenkumarkummara/MavenDemo</connectionUrl>
-      	 <tagBase>scm:git:git://github.com/naveenkumarkummara/MavenDemo.git</tagBase>
-         </configuration>
+      	         </configuration>
       </plugin>
     </plugins>
   </build>
@@ -82,9 +83,10 @@
    <scm>
   	<url>https://github.com/naveenkumarkummara/MavenDemo</url>
   	<connection>scm:git:git://github.com/naveenkumarkummara/MavenDemo.git</connection>
-  	<developerConnection>scm:git:[push=]ssh:git@github.com:naveenkumarkummara/MavenDemo.git</developerConnection>
-  	<tag>DatePlugin2-2</tag>
-  </scm>
+  	<developerConnection>scm:git:https://github.com/naveenkumarkummara/MavenDemo</developerConnection>
+
+  	<tag>8</tag>
+   </scm>
   <issueManagement>
   	<system>github</system>
   	<url>https://github.com/naveenkumarkummara/MavenDemo/issues</url>
@@ -129,5 +131,5 @@
   	<repositories />
   </profile>
   </profiles>
-  <version>2</version>
+  <version>8</version>
 </project>

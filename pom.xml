@@ -33,6 +33,8 @@
       	<version>2.5.3</version>
       	 <configuration>
       	 <connection>https://github.com/naveenkumarkummara/MavenDemo</connection>
+      	 <username>naveenkumarkummara</username>
+      	<password>Kummara@230</password>
       	       	 <checkModificationExcludes>
                     <checkModificationExclude>**/*pom.xml*</checkModificationExclude>
                     <checkModificationExclude>**/*.log</checkModificationExclude>
