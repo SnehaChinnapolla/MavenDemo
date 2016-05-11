@@ -32,6 +32,9 @@
       	<artifactId>maven-release-plugin</artifactId>
       	<version>2.5.3</version>
       	 <configuration>
+      	 <username>naveenkumarkummara</username>
+      	<password>Kummara@230</password>
+      	 <tagBase>+refs/heads/*:refs/remotes/github/*</tagBase>
       	 <checkModificationExcludes>
                     <checkModificationExclude>**/*pom.xml*</checkModificationExclude>
                     <checkModificationExclude>**/*.log</checkModificationExclude>
