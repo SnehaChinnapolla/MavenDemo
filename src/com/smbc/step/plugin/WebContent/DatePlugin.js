@@ -9,7 +9,7 @@ function(declare, connect,  Desktop, ValueFormatter) {
 		return;
 	}
 	
-	console.log("is it fetching ????3333?");
+	console.log("is it push to remote repository and back to build ???:");
 	 Desktop.valueFormatter = new ValueFormatter();
 	connect.connect(ecm.model.desktop, "onLogin", function() {
 		console.log("updating with icm.util.Util only for icm desktop");
