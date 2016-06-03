@@ -20,6 +20,7 @@ define([
 
 		constructor: function() {
 			console.log("inside  valueFormatter");
+			console.log("inside  valueFormatter22222");
 		},
 		/**
 		 * Formats a value.
